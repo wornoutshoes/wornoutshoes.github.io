@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	font-family: HelveticaNeue, sans-serif;
+}
+
+.header {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.main {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.footer {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 20rem;
+	margin: 0 auto;
+	display: block;
+}
+
+.title {
+	text-align: center;
+	color: rgb(169,48,46);
+	font-family: sans-serif;
+	font-size: 3rem;
+	margin: 0.5rem 0;
+}
+
+.contact {
+	font-size: 2rem;
+	display: block;
+	text-align: center;
+}
+
+.email {
+	display: block;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.telephone {
+	display: block;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.bio {
+	text-align: center;
+	width: 50%;
+	margin: 1.5rem auto;
+}
+
+.videos {
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.videos__first {
+	width: 49.5%;
+	display: inline-block;
+}
+
+.videos__second {
+	width: 49.5%;
+	display: inline-block;
+}
+
+.band-members {
+	list-style: none;
+	padding: 0;
+}
+
+.band-members__member {
+	display: inline-block;
+	width: 49.5%;
+	padding: 1rem 0;
+}
+
+.band-members__photo {
+	width: 10rem;
+	border-radius: 600px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.band-members__name {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 1rem;
+	font-size: 1.5rem;
+	font-style: italic;
+}
+
+.band {
+	width: 100%;
+}
